@@ -1,0 +1,13 @@
+/* src/components/Resume.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #f9f9f9;
+}
