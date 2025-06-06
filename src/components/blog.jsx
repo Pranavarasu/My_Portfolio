@@ -1,5 +1,11 @@
 import React from 'react';
 import styles from './Blog.module.css';
+import zohoImg from '../assets/zoho.jpg';
+import ssImg from '../assets/ss.jpg';
+import uImg from '../assets/u.jpg';
+import scImg from '../assets/sc.jpg';
+import zzImg from '../assets/zz.jpg';
+
 
 const Blog = () => {
   return (
@@ -18,14 +24,15 @@ const Blog = () => {
           </div>
         </div>
         <div className={styles.imageContainer}>
-          <img src="src\assets\zoho.jpg" alt="Sign Language Blog" />
+          <img src={zohoImg} alt="Blog1" />
         </div>
       </div>
 
       {/* Blog Post 2 (duplicate and modify for more posts) */}
       <div className={styles.section2}>
         <div className={styles.imageContainer}>
-          <img src="src\assets\ss.jpg" alt="Frontend Performance Blog" />
+          <img src={ssImgImg} alt="Blog2" />
+
         </div>
         <div className={styles.text}>
           <h2>Honored with the Best Student Award by ISTE</h2>
@@ -48,12 +55,14 @@ This project challenged us to integrate machine learning with robotics, combinin
           
         </div>
         <div className={styles.imageContainer}>
-          <img src="src\assets\u.jpg" alt="Sign Language Blog" />
+          <img src={uImg} alt="Blog3" />
+
         </div>
       </div>
       <div className={styles.section2}>
         <div className={styles.imageContainer}>
-          <img src="src\assets\sc.jpg" alt="Sign Language Blog" />
+          <img src={scImg} alt="Blog4" />
+
         </div>
         <div className={styles.text}>
           <h2>Robot Model for Person Detection Using CNN</h2>
@@ -78,7 +87,7 @@ Receiving this award motivates me to continue striving for excellence, embracing
           
         </div>
         <div className={styles.imageContainer}>
-          <img src="src\assets\zz.jpg" alt="Sign Language Blog" />
+          <img src={zzImg} alt="Blog5" />
         </div>
       </div>
     </div>
