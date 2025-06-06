@@ -1,5 +1,5 @@
 .projects {
-  background-image: url('/bgbg.jpg');
+  background-image: url('src/assets/bgbg.jpg');
   color: #000000;
   padding: 2rem;
   min-height: calc(100vh - 140px);

@@ -1,5 +1,5 @@
 .resume {
-  background-image:url('/cvbg.jpeg') ;
+  background-image:url('src/assets/cvbg.jpeg') ;
   color: #000000;
   padding: 2rem;
   min-height: calc(100vh - 140px);

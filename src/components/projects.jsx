@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './Projects.module.css';
+import pppImg from 'C:/projects/portfolio/src/assets/ppp.jpg';
+import two from 'C:/projects/portfolio/src/assets/CC.JPG';
+import three from 'C:/projects/portfolio/src/assets/fr.jpg';
 
 const Projects = () => {
   return (
@@ -18,14 +21,14 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.imageContainer}>
-          <img src="src/assets/ppp.jpeg" alt="Sign Language Recognition Model" />
+          <img src={pppImg} alt="one"/>
         </div>
       </div>
 
       {/* Project 2 */}
       <div className={styles.section2}>
         <div className={styles.imageContainer}>
-          <img src="src/assets/CC.JPG" alt="Cattle Count Detection Model" />
+          <img src={two} alt="two"/>
         </div>
         <div className={styles.text}>
           <h2>CATTLE COUNT DETECTION MODEL</h2>
@@ -47,7 +50,7 @@ const Projects = () => {
           </p>
         </div>
         <div className={styles.imageContainer}>
-          <img src="src/assets/fr.jpg" alt="Facial Recognition Model" />
+          <img src={three} alt="three"/>
         </div>
       </div>
     </div>

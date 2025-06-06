@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './resume.module.css';
+import one from 'C:/projects/portfolio/src/assets/exp.png'
+import two from 'C:/projects/portfolio/src/assets/edu.png';
+import three from 'C:/projects/portfolio/src/assets/skills.png';
 
 const Resume = () => {
   return (
@@ -8,7 +11,7 @@ const Resume = () => {
 
       <div className={styles.section}>
         <div className={styles.title}>
-          <img src="/icons/exp.png" alt="Experience" className={styles.icon} />
+          <img src={one} alt="one"/>
           <h2>EXPERIENCE</h2>
         </div>
         <div className={styles.content}>
@@ -32,7 +35,7 @@ const Resume = () => {
 
       <div className={styles.section}>
         <div className={styles.title}>
-          <img src="/icons/edu.png" alt="Education" className={styles.icon} />
+          <img src={two} alt="two"/>
           <h2>EDUCATION</h2>
         </div>
         <div className={styles.content}>
@@ -51,9 +54,10 @@ const Resume = () => {
 
       <div className={styles.section}>
         <div className={styles.title}>
-          <img src="/icons/skills.png" alt="Skills" className={styles.icon} />
+          <img src={three} alt="three"/>
           <h2>SKILLS</h2>
         </div>
+        
         <div className={styles.content}>
           <ul className={styles.skillList}>
             <li>HTML,CSS,JS</li>

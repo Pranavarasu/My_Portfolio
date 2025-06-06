@@ -31,7 +31,7 @@ const Blog = () => {
       {/* Blog Post 2 (duplicate and modify for more posts) */}
       <div className={styles.section2}>
         <div className={styles.imageContainer}>
-          <img src={ssImgImg} alt="Blog2" />
+          <img src={ssImg} alt="Blog2" />
 
         </div>
         <div className={styles.text}>
