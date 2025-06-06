@@ -5,11 +5,12 @@ import ssImg from '../assets/ss.jpg';
 import uImg from '../assets/u.jpg';
 import scImg from '../assets/sc.jpg';
 import zzImg from '../assets/zz.jpg';
+import bgImg from '../assets/bgbg.jpg';
 
 
 const Blog = () => {
   return (
-    <div className={styles.blog}>
+    <div className={styles.Blog}style={{ backgroundImage: `url(${bgImg})` }}>
       <h1 className={styles.mainTitle}>BLOGS</h1>
 
       {/* Blog Post 1 */}

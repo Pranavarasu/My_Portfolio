@@ -3,10 +3,11 @@ import styles from './Projects.module.css';
 import pppImg from 'C:/projects/portfolio/src/assets/ppp.jpg';
 import two from 'C:/projects/portfolio/src/assets/CC.JPG';
 import three from 'C:/projects/portfolio/src/assets/fr.jpg';
+import bgImg from '../assets/bgbg.jpg';
 
 const Projects = () => {
   return (
-    <div className={styles.projects}>
+    <div className={styles.projects}style={{ backgroundImage: `url(${bgImg})` }}>
       <h1 className={styles.mainTitle}>Projects</h1>
 
       {/* Project 1 */}

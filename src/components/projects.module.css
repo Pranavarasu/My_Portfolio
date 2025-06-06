@@ -1,6 +1,5 @@
 .projects {
-  background-image: url('src/assets/bgbg.jpg');
-  color: #000000;
+  color: #f1ecec;
   padding: 2rem;
   min-height: calc(100vh - 140px);
   box-sizing: border-box;

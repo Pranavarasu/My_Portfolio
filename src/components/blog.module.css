@@ -1,6 +1,6 @@
 .blog {
-  background-image: url('src/assets/bgbg.jpg');
-  color: #000000;
+  padding-top: 0%;
+  color: #ffffff;
   padding: 2rem;
   min-height: calc(100vh - 140px);
   box-sizing: border-box;
